@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5565C7132853673300C415AA /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5565C7132853673300C415AA /* UITextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5565C7162853673300C415AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5565C7182853673300C415AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5565C71A2853673300C415AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		5565C7142853673300C415AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5565C7132853673300C415AA /* test.app */,
+				5565C7132853673300C415AA /* UITextField.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5565C7122853673300C415AA /* test */ = {
+		5565C7122853673300C415AA /* UITextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5565C7272853673600C415AA /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = 5565C7272853673600C415AA /* Build configuration list for PBXNativeTarget "UITextField" */;
 			buildPhases = (
 				5565C70F2853673300C415AA /* Sources */,
 				5565C7102853673300C415AA /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = UITextField;
 			productName = test;
-			productReference = 5565C7132853673300C415AA /* test.app */;
+			productReference = 5565C7132853673300C415AA /* UITextField.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5565C70E2853673300C415AA /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = 5565C70E2853673300C415AA /* Build configuration list for PBXProject "UITextField" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5565C7122853673300C415AA /* test */,
+				5565C7122853673300C415AA /* UITextField */,
 			);
 		};
 /* End PBXProject section */
@@ -290,6 +290,7 @@
 				DEVELOPMENT_TEAM = FK789V2YNA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = test/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UITextField;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,6 +320,7 @@
 				DEVELOPMENT_TEAM = FK789V2YNA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = test/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UITextField;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -341,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5565C70E2853673300C415AA /* Build configuration list for PBXProject "test" */ = {
+		5565C70E2853673300C415AA /* Build configuration list for PBXProject "UITextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5565C7252853673600C415AA /* Debug */,
@@ -350,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5565C7272853673600C415AA /* Build configuration list for PBXNativeTarget "test" */ = {
+		5565C7272853673600C415AA /* Build configuration list for PBXNativeTarget "UITextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5565C7282853673600C415AA /* Debug */,
